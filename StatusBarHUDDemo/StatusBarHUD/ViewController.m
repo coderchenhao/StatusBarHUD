@@ -32,6 +32,8 @@
 
 
 - (IBAction)success:(UIButton *)sender {
+    NSString *testStr = @"保存的非常好，测试sourceTree";
+    NSLog(@"%@",testStr);
     NSString *msg = @"保存成功";
     [CHStatusBarHUD showSucess:msg];
 }
