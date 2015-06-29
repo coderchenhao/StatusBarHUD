@@ -39,6 +39,8 @@
 }
 
 - (IBAction)error:(UIButton *)sender {
+    NSString *helloKitty = @"hello Kitty";
+    NSLog(@"%@",helloKitty);
     NSString *msg = @"保存失败";
     [CHStatusBarHUD showSucess:msg];
 }
